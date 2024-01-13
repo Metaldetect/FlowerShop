@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "Троянда Червона",
+    "img": "/images/bouquets/rose-bouquet.jpeg",
+    "desc": "Найкраща червона троянда для ваших особливих моментів.",
+    "category": "Рози",
+    "price": 25.99
+  },
+  {
+    "id": 2,
+    "title": "Тюльпан Мікс",
+    "img": "/images/bouquets/tulip-bouquet.jpeg",
+    "desc": "Ніжний мікс тюльпанів, щоб додати кольору вашому життю.",
+    "category": "Тюльпани",
+    "price": 19.99
+  },
+  {
+    "id": 3,
+    "title": "Лілія Біла",
+    "img": "/public/images/bouquets/lily-bouquet.jpeg",
+    "desc": "Прекрасна біла лілія для елегантного і чистого враження.",
+    "category": "Лілії",
+    "price": 29.99
+  },
+  {
+    "id": 4,
+    "title": "Соняшник Золотий",
+    "img": "/public/images/bouquets/sunflower-bouquet.jpeg",
+    "desc": "Яскравий соняшник, щоб привнести сонце в ваш простір.",
+    "category": "Соняшники",
+    "price": 35.99
+  },
+  {
+    "id": 5,
+    "title": "Орхідея Рожева",
+    "img": "/public/images/bouquets/orchid-bouquet.jpeg",
+    "desc": "Екзотична рожева орхідея для вишуканих смаків.",
+    "category": "Орхідеї",
+    "price": 45.99
+  },
+  {
+    "id": 6,
+    "title": "Гвоздика Синя",
+    "img": "/public/images/bouquets/carnation-bouquet.jpeg",
+    "desc": "Голуба гвоздика для неповторного враження.",
+    "category": "Гвоздики",
+    "price": 15.99
+  },
+  {
+    "id": 7,
+    "title": "Хризантема Жовта",
+    "img": "/public/images/bouquets/chrysanthemum-bouquet.jpeg",
+    "desc": "Яскрава жовта хризантема для радісного настрою.",
+    "category": "Хризантеми",
+    "price": 22.99
+  },
+  {
+    "id": 8,
+    "title": "Фрезія Фіолетова",
+    "img": "/public/images/bouquets/freesia-bouquet.jpeg",
+    "desc": "Фіолетова фрезія для вишуканого букета.",
+    "category": "Фрезії",
+    "price": 18.99
+  },
+  {
+    "id": 9,
+    "title": "Альстромерія Оранжева",
+    "img": "/public/images/bouquets/alstroemeria-bouquet.jpeg",
+    "desc": "Оранжева альстромерія для енергійних вражень.",
+    "category": "Альстромерії",
+    "price": 26.99
+  },
+  {
+    "id": 10,
+    "title": "Гербера Жовта",
+    "img": "/public/images/bouquets/gerbera-bouquet.jpeg",
+    "desc": "Сонячна жовта гербера для посмішки на обличчі.",
+    "category": "Гербери",
+    "price": 20.99
+  }
+]
