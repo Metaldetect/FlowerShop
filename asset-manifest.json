@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/test2/static/css/main.7acaea2f.css",
-    "main.js": "/test2/static/js/main.ee6f9e27.js",
+    "main.css": "/test2/static/css/main.f6abf9fc.css",
+    "main.js": "/test2/static/js/main.9252c97b.js",
+    "static/media/vektor-tree-ppl.png": "/test2/static/media/vektor-tree-ppl.c48e351b7cdd1c86220a.png",
+    "static/media/vector.svg": "/test2/static/media/vector.fc77b92e658737c6f252ec00e52a0893.svg",
+    "static/media/pig-money-ppl.svg": "/test2/static/media/pig-money-ppl.180fa19fbcf8a88ed0b9d0b523456f1b.svg",
+    "static/media/clock-ppl.svg": "/test2/static/media/clock-ppl.601e4fe90adf975aaf4fe1aa447d14db.svg",
     "index.html": "/test2/index.html",
-    "main.7acaea2f.css.map": "/test2/static/css/main.7acaea2f.css.map",
-    "main.ee6f9e27.js.map": "/test2/static/js/main.ee6f9e27.js.map"
+    "main.9252c97b.js.map": "/test2/static/js/main.9252c97b.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.ee6f9e27.js"
+    "static/css/main.f6abf9fc.css",
+    "static/js/main.9252c97b.js"
   ]
 }
