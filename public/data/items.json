@@ -1,82 +1,82 @@
 [
   {
     "id": 1,
-    "title": "Троянда Червона",
+    "title": "Red Rose",
     "img": "/images/bouquets/rose-bouquet.jpeg",
-    "desc": "Найкраща червона троянда для ваших особливих моментів.",
-    "category": "Рози",
+    "desc": "The best red rose for your special moments.",
+    "category": "Roses",
     "price": 25.99
   },
   {
     "id": 2,
-    "title": "Тюльпан Мікс",
+    "title": "Tulip Mix",
     "img": "/images/bouquets/tulip-bouquet.jpeg",
-    "desc": "Ніжний мікс тюльпанів, щоб додати кольору вашому життю.",
-    "category": "Тюльпани",
+    "desc": "A gentle mix of tulips to add color to your life.",
+    "category": "Tulips",
     "price": 19.99
   },
   {
     "id": 3,
-    "title": "Лілія Біла",
-    "img": "/public/images/bouquets/lily-bouquet.jpeg",
-    "desc": "Прекрасна біла лілія для елегантного і чистого враження.",
-    "category": "Лілії",
+    "title": "White Lily",
+    "img": "/images/bouquets/lily-bouquet.jpeg",
+    "desc": "A beautiful white lily for an elegant and pure impression.",
+    "category": "Lilies",
     "price": 29.99
   },
   {
     "id": 4,
-    "title": "Соняшник Золотий",
-    "img": "/public/images/bouquets/sunflower-bouquet.jpeg",
-    "desc": "Яскравий соняшник, щоб привнести сонце в ваш простір.",
-    "category": "Соняшники",
+    "title": "Golden Sunflower",
+    "img": "/images/bouquets/sunflower-bouquet.jpeg",
+    "desc": "A bright sunflower to bring the sun into your space.",
+    "category": "Sunflowers",
     "price": 35.99
   },
   {
     "id": 5,
-    "title": "Орхідея Рожева",
-    "img": "/public/images/bouquets/orchid-bouquet.jpeg",
-    "desc": "Екзотична рожева орхідея для вишуканих смаків.",
-    "category": "Орхідеї",
+    "title": "Pink Orchid",
+    "img": "/images/bouquets/orchid-bouquet.jpeg",
+    "desc": "An exotic pink orchid for sophisticated tastes.",
+    "category": "Orchids",
     "price": 45.99
   },
   {
     "id": 6,
-    "title": "Гвоздика Синя",
-    "img": "/public/images/bouquets/carnation-bouquet.jpeg",
-    "desc": "Голуба гвоздика для неповторного враження.",
-    "category": "Гвоздики",
+    "title": "Blue Carnation",
+    "img": "/images/bouquets/carnation-bouquet.jpeg",
+    "desc": "Blue carnation for a unique impression.",
+    "category": "Carnations",
     "price": 15.99
   },
   {
     "id": 7,
-    "title": "Хризантема Жовта",
-    "img": "/public/images/bouquets/chrysanthemum-bouquet.jpeg",
-    "desc": "Яскрава жовта хризантема для радісного настрою.",
-    "category": "Хризантеми",
+    "title": "Yellow Chrysanthemum",
+    "img": "/images/bouquets/chrysanthemum-bouquet.jpeg",
+    "desc": "A bright yellow chrysanthemum for a joyful mood.",
+    "category": "Chrysanthemums",
     "price": 22.99
   },
   {
     "id": 8,
-    "title": "Фрезія Фіолетова",
-    "img": "/public/images/bouquets/freesia-bouquet.jpeg",
-    "desc": "Фіолетова фрезія для вишуканого букета.",
-    "category": "Фрезії",
+    "title": "Purple Freesia",
+    "img": "/images/bouquets/freesia-bouquet.jpeg",
+    "desc": "Purple freesia for an elegant bouquet.",
+    "category": "Freesias",
     "price": 18.99
   },
   {
     "id": 9,
-    "title": "Альстромерія Оранжева",
-    "img": "/public/images/bouquets/alstroemeria-bouquet.jpeg",
-    "desc": "Оранжева альстромерія для енергійних вражень.",
-    "category": "Альстромерії",
+    "title": "Orange Alstroemeria",
+    "img": "/images/bouquets/alstroemeria-bouquet.jpeg",
+    "desc": "Orange alstroemeria for energetic impressions.",
+    "category": "Alstroemerias",
     "price": 26.99
   },
   {
     "id": 10,
-    "title": "Гербера Жовта",
-    "img": "/public/images/bouquets/gerbera-bouquet.jpeg",
-    "desc": "Сонячна жовта гербера для посмішки на обличчі.",
-    "category": "Гербери",
+    "title": "Yellow Gerbera",
+    "img": "/images/bouquets/gerbera-bouquet.jpeg",
+    "desc": "Sunny yellow gerbera for a smile on your face.",
+    "category": "Gerberas",
     "price": 20.99
   }
 ]
