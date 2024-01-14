@@ -1,14 +1,15 @@
-import React, { useState, useEffect } from "react";
-import { Element } from "react-scroll";
+import React, { useState, useEffect } from 'react';
+import { Element } from 'react-scroll';
 import {
   ItemsBox,
   ItemContainer,
   Image,
   Title,
   StyledPagination,
-} from "./Items.styled";
-import BouquetModal from "../BouquetModal";
-import usePagination from "../PaginationUtils";
+} from './Items.styled';
+import BouquetModal from '../BouquetModal';
+import usePagination from '../PaginationUtils';
+import axios from 'axios';
 
 function PaginatedItems() {
   const [items, setItems] = useState([]);
@@ -17,18 +18,17 @@ function PaginatedItems() {
   const [selectedBouquet, setSelectedBouquet] = useState(null);
 
   useEffect(() => {
-    fetch("/data/items.json")
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error(`Failed to fetch: ${response.statusText}`);
-        }
-        return response.json();
+    axios
+      .get('/data/items.json')
+      .then(response => {
+        setItems(response.data);
       })
-      .then((data) => setItems(data))
-      .catch((error) => console.error("Error loading items:", error));
+      .catch(error => {
+        console.error('Error loading items:', error);
+      });
   }, []);
 
-  const handleBouquetClick = (bouquet) => {
+  const handleBouquetClick = bouquet => {
     setSelectedBouquet(bouquet);
   };
 
@@ -36,9 +36,9 @@ function PaginatedItems() {
     setSelectedBouquet(null);
   };
 
-  const paginatedItems = items.slice(offset, offset + perPage).map((item) => (
+  const paginatedItems = items.slice(offset, offset + perPage).map(item => (
     <ItemContainer key={item.id} onClick={() => handleBouquetClick(item)}>
-      <Image src={`/images/bouquets/rose-bouquet.jpeg`} alt={item.title} />
+      <Image src={item.img} alt={item.title} />
       <p>{item.desc}</p>
       <b>{item.price}</b>
     </ItemContainer>
