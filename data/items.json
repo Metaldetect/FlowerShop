@@ -5,7 +5,19 @@
     "img": "/images/bouquets/rose-bouquet.jpeg",
     "desc": "The best red rose for your special moments.",
     "category": "Roses",
-    "price": 25.99
+    "price": 25.99,
+    "images": [
+      "/images/rose-bouquets/bouquet1.jpeg",
+      "/images/rose-bouquets/bouquet2.jpeg",
+      "/images/rose-bouquets/bouquet3.jpeg",
+      "/images/rose-bouquets/bouquet4.jpeg",
+      "/images/rose-bouquets/bouquet5.jpeg",
+      "/images/rose-bouquets/bouquet6.jpeg",
+      "/images/rose-bouquets/bouquet7.jpeg",
+      "/images/rose-bouquets/bouquet8.jpeg",
+      "/images/rose-bouquets/bouquet9.jpeg",
+      "/images/rose-bouquets/bouquet10.jpeg"
+    ]
   },
   {
     "id": 2,
@@ -13,7 +25,19 @@
     "img": "/images/bouquets/tulip-bouquet.jpeg",
     "desc": "A gentle mix of tulips to add color to your life.",
     "category": "Tulips",
-    "price": 19.99
+    "price": 19.99,
+    "images": [
+      "/images/tulip-bouquets/bouquet1.jpeg",
+      "/images/tulip-bouquets/bouquet2.jpeg",
+      "/images/tulip-bouquets/bouquet3.jpeg",
+      "/images/tulip-bouquets/bouquet4.jpeg",
+      "/images/tulip-bouquets/bouquet5.jpeg",
+      "/images/tulip-bouquets/bouquet6.jpeg",
+      "/images/tulip-bouquets/bouquet7.jpeg",
+      "/images/tulip-bouquets/bouquet8.jpeg",
+      "/images/tulip-bouquets/bouquet9.jpeg",
+      "/images/tulip-bouquets/bouquet10.jpeg"
+    ]
   },
   {
     "id": 3,
