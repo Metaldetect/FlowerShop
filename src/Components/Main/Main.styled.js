@@ -1,13 +1,14 @@
-import { styled } from "styled-components";
+import { styled } from 'styled-components';
 
 export const MainContainer = styled.div`
-  background-image: url("/images/bg/bg.png");
+  background-image: url(${process.env.PUBLIC_URL}/images/bg/bg.png);
   width: 100%;
   height: 600px;
   background-size: cover;
   background-position: center center;
   position: relative;
 `;
+
 export const Title = styled.h1`
   position: absolute;
   top: 50%;
