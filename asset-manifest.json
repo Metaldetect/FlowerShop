@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/FlowerShop/static/css/main.f6abf9fc.css",
-    "main.js": "/FlowerShop/static/js/main.bf747010.js",
+    "main.js": "/FlowerShop/static/js/main.8f975ecc.js",
     "static/media/vektor-tree-ppl.png": "/FlowerShop/static/media/vektor-tree-ppl.c48e351b7cdd1c86220a.png",
     "static/media/vector.svg": "/FlowerShop/static/media/vector.fc77b92e658737c6f252ec00e52a0893.svg",
     "static/media/pig-money-ppl.svg": "/FlowerShop/static/media/pig-money-ppl.180fa19fbcf8a88ed0b9d0b523456f1b.svg",
     "static/media/clock-ppl.svg": "/FlowerShop/static/media/clock-ppl.601e4fe90adf975aaf4fe1aa447d14db.svg",
     "index.html": "/FlowerShop/index.html",
-    "main.bf747010.js.map": "/FlowerShop/static/js/main.bf747010.js.map"
+    "main.8f975ecc.js.map": "/FlowerShop/static/js/main.8f975ecc.js.map"
   },
   "entrypoints": [
     "static/css/main.f6abf9fc.css",
-    "static/js/main.bf747010.js"
+    "static/js/main.8f975ecc.js"
   ]
 }
