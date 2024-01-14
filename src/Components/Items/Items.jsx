@@ -38,7 +38,7 @@ function PaginatedItems() {
 
   const paginatedItems = items.slice(offset, offset + perPage).map(item => (
     <ItemContainer key={item.id} onClick={() => handleBouquetClick(item)}>
-      <Image src={item.img} alt={item.title} />
+      <Image src={process.env.PUBLIC_URL + item.img} alt={item.title} />
       <p>{item.desc}</p>
       <b>{item.price}</b>
     </ItemContainer>
