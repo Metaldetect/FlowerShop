@@ -45,7 +45,19 @@
     "img": "/images/bouquets/lily-bouquet.jpeg",
     "desc": "A beautiful white lily for an elegant and pure impression.",
     "category": "Lilies",
-    "price": 29.99
+    "price": 29.99,
+    "images": [
+      "/images/lily-bouquets/bouquet1.jpeg",
+      "/images/lily-bouquets/bouquet2.jpeg",
+      "/images/lily-bouquets/bouquet3.jpeg",
+      "/images/lily-bouquets/bouquet4.jpeg",
+      "/images/lily-bouquets/bouquet5.jpeg",
+      "/images/lily-bouquets/bouquet6.jpeg",
+      "/images/lily-bouquets/bouquet7.jpeg",
+      "/images/lily-bouquets/bouquet8.jpeg",
+      "/images/lily-bouquets/bouquet9.jpeg",
+      "/images/lily-bouquets/bouquet10.jpeg"
+    ]
   },
   {
     "id": 4,
@@ -53,7 +65,19 @@
     "img": "/images/bouquets/sunflower-bouquet.jpeg",
     "desc": "A bright sunflower to bring the sun into your space.",
     "category": "Sunflowers",
-    "price": 35.99
+    "price": 35.99,
+    "images": [
+      "/images/sunflower-bouquets/bouquet1.jpeg",
+      "/images/sunflower-bouquets/bouquet2.jpeg",
+      "/images/sunflower-bouquets/bouquet3.jpeg",
+      "/images/sunflower-bouquets/bouquet4.jpeg",
+      "/images/sunflower-bouquets/bouquet5.jpeg",
+      "/images/sunflower-bouquets/bouquet6.jpeg",
+      "/images/sunflower-bouquets/bouquet7.jpeg",
+      "/images/sunflower-bouquets/bouquet8.jpeg",
+      "/images/sunflower-bouquets/bouquet9.jpeg",
+      "/images/sunflower-bouquets/bouquet10.jpeg"
+    ]
   },
   {
     "id": 5,
@@ -61,7 +85,19 @@
     "img": "/images/bouquets/orchid-bouquet.jpeg",
     "desc": "An exotic pink orchid for sophisticated tastes.",
     "category": "Orchids",
-    "price": 45.99
+    "price": 45.99,
+    "images": [
+      "/images/orchid-bouquets/bouquet1.jpeg",
+      "/images/orchid-bouquets/bouquet2.jpeg",
+      "/images/orchid-bouquets/bouquet3.jpeg",
+      "/images/orchid-bouquets/bouquet4.jpeg",
+      "/images/orchid-bouquets/bouquet5.jpeg",
+      "/images/orchid-bouquets/bouquet6.jpeg",
+      "/images/orchid-bouquets/bouquet7.jpeg",
+      "/images/orchid-bouquets/bouquet8.jpeg",
+      "/images/orchid-bouquets/bouquet9.jpeg",
+      "/images/orchid-bouquets/bouquet10.jpeg"
+    ]
   },
   {
     "id": 6,
@@ -69,7 +105,19 @@
     "img": "/images/bouquets/carnation-bouquet.jpeg",
     "desc": "Blue carnation for a unique impression.",
     "category": "Carnations",
-    "price": 15.99
+    "price": 15.99,
+    "images": [
+      "/images/carnation-bouquets/bouquet1.jpeg",
+      "/images/carnation-bouquets/bouquet2.jpeg",
+      "/images/carnation-bouquets/bouquet3.jpeg",
+      "/images/carnation-bouquets/bouquet4.jpeg",
+      "/images/carnation-bouquets/bouquet5.jpeg",
+      "/images/carnation-bouquets/bouquet6.jpeg",
+      "/images/carnation-bouquets/bouquet7.jpeg",
+      "/images/carnation-bouquets/bouquet8.jpeg",
+      "/images/carnation-bouquets/bouquet9.jpeg",
+      "/images/carnation-bouquets/bouquet10.jpeg"
+    ]
   },
   {
     "id": 7,
@@ -77,7 +125,19 @@
     "img": "/images/bouquets/chrysanthemum-bouquet.jpeg",
     "desc": "A bright yellow chrysanthemum for a joyful mood.",
     "category": "Chrysanthemums",
-    "price": 22.99
+    "price": 22.99,
+    "images": [
+      "/images/chrysanthemum-bouquets/bouquet1.jpeg",
+      "/images/chrysanthemum-bouquets/bouquet2.jpeg",
+      "/images/chrysanthemum-bouquets/bouquet3.jpeg",
+      "/images/chrysanthemum-bouquets/bouquet4.jpeg",
+      "/images/chrysanthemum-bouquets/bouquet5.jpeg",
+      "/images/chrysanthemum-bouquets/bouquet6.jpeg",
+      "/images/chrysanthemum-bouquets/bouquet7.jpeg",
+      "/images/chrysanthemum-bouquets/bouquet8.jpeg",
+      "/images/chrysanthemum-bouquets/bouquet9.jpeg",
+      "/images/chrysanthemum-bouquets/bouquet10.jpeg"
+    ]
   },
   {
     "id": 8,
@@ -85,7 +145,19 @@
     "img": "/images/bouquets/freesia-bouquet.jpeg",
     "desc": "Purple freesia for an elegant bouquet.",
     "category": "Freesias",
-    "price": 18.99
+    "price": 18.99,
+    "images": [
+      "/images/freesia-bouquets/bouquet1.jpeg",
+      "/images/freesia-bouquets/bouquet2.jpeg",
+      "/images/freesia-bouquets/bouquet3.jpeg",
+      "/images/freesia-bouquets/bouquet4.jpeg",
+      "/images/freesia-bouquets/bouquet5.jpeg",
+      "/images/freesia-bouquets/bouquet6.jpeg",
+      "/images/freesia-bouquets/bouquet7.jpeg",
+      "/images/freesia-bouquets/bouquet8.jpeg",
+      "/images/freesia-bouquets/bouquet9.jpeg",
+      "/images/freesia-bouquets/bouquet10.jpeg"
+    ]
   },
   {
     "id": 9,
@@ -93,7 +165,19 @@
     "img": "/images/bouquets/alstroemeria-bouquet.jpeg",
     "desc": "Orange alstroemeria for energetic impressions.",
     "category": "Alstroemerias",
-    "price": 26.99
+    "price": 26.99,
+    "images": [
+      "/images/alstroemeria-bouquets/bouquet1.jpeg",
+      "/images/alstroemeria-bouquets/bouquet2.jpeg",
+      "/images/alstroemeria-bouquets/bouquet3.jpeg",
+      "/images/alstroemeria-bouquets/bouquet4.jpeg",
+      "/images/alstroemeria-bouquets/bouquet5.jpeg",
+      "/images/alstroemeria-bouquets/bouquet6.jpeg",
+      "/images/alstroemeria-bouquets/bouquet7.jpeg",
+      "/images/alstroemeria-bouquets/bouquet8.jpeg",
+      "/images/alstroemeria-bouquets/bouquet9.jpeg",
+      "/images/alstroemeria-bouquets/bouquet10.jpeg"
+    ]
   },
   {
     "id": 10,
@@ -101,6 +185,18 @@
     "img": "/images/bouquets/gerbera-bouquet.jpeg",
     "desc": "Sunny yellow gerbera for a smile on your face.",
     "category": "Gerberas",
-    "price": 20.99
+    "price": 20.99,
+    "images": [
+      "/images/gerbera-bouquets/bouquet1.jpeg",
+      "/images/gerbera-bouquets/bouquet2.jpeg",
+      "/images/gerbera-bouquets/bouquet3.jpeg",
+      "/images/gerbera-bouquets/bouquet4.jpeg",
+      "/images/gerbera-bouquets/bouquet5.jpeg",
+      "/images/gerbera-bouquets/bouquet6.jpeg",
+      "/images/gerbera-bouquets/bouquet7.jpeg",
+      "/images/gerbera-bouquets/bouquet8.jpeg",
+      "/images/gerbera-bouquets/bouquet9.jpeg",
+      "/images/gerbera-bouquets/bouquet10.jpeg"
+    ]
   }
 ]
