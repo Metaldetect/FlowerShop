@@ -1,28 +1,28 @@
-import styled from "styled-components";
-import VektorRoad from "../../images/icon/vektor-ppl.png";
-import Clock from "../../images/svg/clock-ppl.svg";
-import PigMoney from "../../images/svg/pig-money-ppl.svg";
-import BackgroundIcon from "../../images/icon/vektor-tree-ppl.png";
+import styled from 'styled-components';
+import VektorRoad from '../../images/icon/vektor-ppl.png';
+import Clock from '../../images/svg/clock-ppl.svg';
+import PigMoney from '../../images/svg/pig-money-ppl.svg';
+import BackgroundIcon from '../../images/icon/vektor-tree-ppl.png';
 
 export const DeliveryContainer = styled.div`
   position: relative;
   margin-top: 120px;
 
   &::before {
-    content: "";
+    content: '';
     display: block;
     position: absolute;
     top: 20%;
     right: 20%;
     z-index: 1;
-    background-image: url("/images/bg/img-ppl.png");
+    background-image: url(${process.env.PUBLIC_URL}/images/bg/img-ppl.png);
     background-repeat: no-repeat;
     width: 375px;
     height: 550px;
   }
 
   &::after {
-    content: "";
+    content: '';
     z-index: 2;
     display: block;
     background: url(${BackgroundIcon}) no-repeat;
@@ -63,7 +63,7 @@ export const DeliverySubTitle = styled.h3`
   position: relative;
 
   &::before {
-    content: "";
+    content: '';
     position: absolute;
     top: 5px;
     left: -40px;
@@ -74,7 +74,7 @@ export const DeliverySubTitle = styled.h3`
   }
 
   &::after {
-    content: "Доставка до 3 годин по Києву.";
+    content: 'Доставка до 3 годин по Києву.';
     font-size: 20px;
     font-weight: 400;
     display: block;
