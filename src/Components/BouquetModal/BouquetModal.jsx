@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState } from 'react';
 import {
   ModalOverlay,
   ModalContent,
@@ -9,18 +9,20 @@ import {
   Description,
   Price,
   CloseButton,
-} from "./BouquetModal.styled";
-import usePagination from "../PaginationUtils";
+} from './BouquetModal.styled';
+import usePagination from '../PaginationUtils';
 
 function BouquetModal({ items, bouquet, onClose }) {
   const [perPage] = useState(1);
   const { currentPage, offset, handlePageClick } = usePagination(0, perPage);
 
-  const bouquetDetails = items.find((item) => item.id === bouquet.id);
+  const bouquetDetails = items.find(item => item.id === bouquet.id);
 
   const images = Array.from({ length: 15 }, (_, index) => ({
     id: index,
-    src: `/images/rose-bouquets/bouquet${index + 1}.jpeg`,
+    src: `${process.env.PUBLIC_URL}/images/rose-bouquets/bouquet${
+      index + 1
+    }.jpeg`,
   }));
 
   const paginatedItems = images.slice(offset, offset + perPage);
@@ -28,10 +30,10 @@ function BouquetModal({ items, bouquet, onClose }) {
   const { title, desc, price } = bouquetDetails;
 
   useEffect(() => {
-    document.body.style.overflow = "hidden";
+    document.body.style.overflow = 'hidden';
 
     return () => {
-      document.body.style.overflow = "visible";
+      document.body.style.overflow = 'visible';
     };
   }, []);
 
@@ -40,7 +42,7 @@ function BouquetModal({ items, bouquet, onClose }) {
       ? Math.ceil(items.length / perPage)
       : 0;
 
-  const handleBackdropClick = (e) => {
+  const handleBackdropClick = e => {
     if (e.target === e.currentTarget) {
       onClose(e);
     }
@@ -54,7 +56,7 @@ function BouquetModal({ items, bouquet, onClose }) {
 
         {currentPage !== undefined &&
           offset !== undefined &&
-          paginatedItems.map((item) => (
+          paginatedItems.map(item => (
             <ItemContainer key={`item_${item.id}`}>
               <Image src={item.src} alt={title} />
             </ItemContainer>
