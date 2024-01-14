@@ -19,7 +19,7 @@ function PaginatedItems() {
 
   useEffect(() => {
     axios
-      .get('/data/items.json')
+      .get(`${process.env.PUBLIC_URL}/data/items.json`)
       .then(response => {
         setItems(response.data);
       })
