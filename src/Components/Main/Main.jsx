@@ -16,7 +16,7 @@ function Main() {
 
   return (
     <MainContainer>
-      <Title>Швидка доставка ваших почуттів</Title>
+      <Title>Швидка доставка почуттів</Title>
       <Button onClick={openModal} />
       {isModalOpen && <Modal onClose={closeModal} />}
     </MainContainer>
