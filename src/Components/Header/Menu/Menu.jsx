@@ -1,13 +1,14 @@
-import React, { useState } from "react";
-import { ListContainer, ListItem, Button } from "./Menu.styled";
-import { Link as ScrollLink } from "react-scroll";
-import Modal from "../../ModalContacts/ModalContacts";
+import React, { useState } from 'react';
+import { ListContainer, ListItem, Button } from './Menu.styled';
+import { Link as ScrollLink } from 'react-scroll';
+import Modal from '../../ModalContacts/ModalContacts';
 
-function HeaderMenuList({ items }) {
+function HeaderMenuList({ items, closeMenu }) {
   const [isContactModalOpen, setContactModalOpen] = useState(false);
 
   const openContactModal = () => {
     setContactModalOpen(true);
+    closeMenu(false);
   };
 
   const closeContactModal = () => {
@@ -18,8 +19,8 @@ function HeaderMenuList({ items }) {
     <>
       <ListContainer>
         {items.map((item, index) => (
-          <ListItem key={index}>
-            {item === "Контакти" ? (
+          <ListItem key={index} onClick={closeMenu}>
+            {item === 'Контакти' ? (
               <Button onClick={openContactModal}>{item}</Button>
             ) : (
               <ScrollLink to={item.toLowerCase()} smooth={true} duration={500}>
