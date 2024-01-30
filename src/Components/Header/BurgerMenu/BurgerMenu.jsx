@@ -12,7 +12,7 @@ const BurgerMenu = ({ isOpen, setIsOpen }) => {
         <MenuBtn isOpen={isOpen} />
       </BurgerMenuIcon>
       <BurgerMenuContainer isOpen={isOpen}>
-        <HeaderMenuList items={menuItem} />
+        <HeaderMenuList items={menuItem} closeMenu={setIsOpen} />
       </BurgerMenuContainer>
     </>
   );
