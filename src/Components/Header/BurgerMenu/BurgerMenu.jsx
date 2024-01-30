@@ -9,7 +9,7 @@ const BurgerMenu = ({ isOpen, setIsOpen }) => {
   return (
     <>
       <BurgerMenuIcon onClick={() => setIsOpen(prev => !prev)}>
-        <MenuBtn />
+        <MenuBtn isOpen={isOpen} />
       </BurgerMenuIcon>
       <BurgerMenuContainer isOpen={isOpen}>
         <HeaderMenuList items={menuItem} />
