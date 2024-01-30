@@ -1,10 +1,15 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const ListContainer = styled.ul`
   display: flex;
   gap: 2.5rem;
   list-style: none;
   padding: 0;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
 `;
 
 export const ListItem = styled.li`
