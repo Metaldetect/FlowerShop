@@ -32,6 +32,12 @@ export const DeliveryContainer = styled.div`
     width: 300px;
     height: 400px;
   }
+  @media (max-width: 768px) {
+    &::before,
+    &::after {
+      display: none;
+    }
+  }
 `;
 
 export const DeliveryTitle = styled.h2`
@@ -51,6 +57,15 @@ export const DeliveryTitle = styled.h2`
     height: 500px;
     top: 100%;
     left: 10%;
+  }
+
+  @media (max-width: 768px) {
+    &::after {
+      display: none;
+    }
+    text-align: center;
+    margin-left: 0;
+    font-size: 36px;
   }
 `;
 
@@ -81,6 +96,16 @@ export const DeliverySubTitle = styled.h3`
     margin-top: 10px;
     margin-left: 25px;
   }
+
+  @media (max-width: 768px) {
+    &::after {
+      margin-left: 0;
+    }
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
 `;
 
 export const DeliverySubTitleComment = styled.h3`
@@ -91,8 +116,8 @@ export const DeliverySubTitleComment = styled.h3`
   margin-left: 170px;
   position: relative;
 
-    &::before {
-    content: "";
+  &::before {
+    content: '';
     position: absolute;
     top: 5px;
     left: -40px;
@@ -103,12 +128,23 @@ export const DeliverySubTitleComment = styled.h3`
   }
 
   &::after {
-	content: "При замовленні над 1000 гривень доставка в рамках Києва безкоштовна.";
-	font-size: 20px;
-   font-weight: 400;
-   display: block;
-	margin-top: 10px;
-	margin-left: 25px;
+    content: 'При замовленні над 1000 гривень доставка в рамках Києва безкоштовна.';
+    font-size: 20px;
+    font-weight: 400;
+    display: block;
+    margin-top: 10px;
+    margin-left: 25px;
+  }
+
+  @media (max-width: 768px) {
+    &::after {
+      margin-left: 0;
+    }
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 80%;
+  }
 `;
 
 export const DeliveryBackground = styled.img`
@@ -121,4 +157,8 @@ export const DeliveryBackground = styled.img`
   border: none;
   border-top-left-radius: 250px;
   border-top-right-radius: 250px;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;
