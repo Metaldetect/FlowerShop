@@ -1,6 +1,6 @@
-import styled from "styled-components";
-import { Pagination } from "@mui/material";
-import Icon from "../../images/svg/vector.svg";
+import styled from 'styled-components';
+import { Pagination } from '@mui/material';
+import Icon from '../../images/svg/vector.svg';
 
 export const ItemsBox = styled.div`
   display: flex;
@@ -8,6 +8,12 @@ export const ItemsBox = styled.div`
   flex-wrap: wrap;
   justify-content: space-around;
   margin-top: 50px;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
 `;
 
 export const ItemContainer = styled.div`
@@ -35,7 +41,6 @@ export const Image = styled.img`
   height: 350px;
   object-fit: cover;
   border-radius: 20px;
-
   }
 `;
 
@@ -47,7 +52,7 @@ export const Title = styled.h1`
   margin-left: 40px;
 
   &::after {
-    content: "";
+    content: '';
     position: absolute;
     top: 0;
     transform: translateX(50%);
