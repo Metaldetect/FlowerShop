@@ -1,8 +1,8 @@
-import styled from "styled-components";
-import PeopleIcon from "../../images/icon/rewiew-people-1.png";
-import PeopleIcon2 from "../../images/icon/rewiew-people-2.png";
-import PeopleIcon3 from "../../images/icon/rewiew-people-3.png";
-import StarsIcon from "../../images/icon/stars.png";
+import styled from 'styled-components';
+import PeopleIcon from '../../images/icon/rewiew-people-1.png';
+import PeopleIcon2 from '../../images/icon/rewiew-people-2.png';
+import PeopleIcon3 from '../../images/icon/rewiew-people-3.png';
+import StarsIcon from '../../images/icon/stars.png';
 
 export const ReviewContainer = styled.div`
   position: relative;
@@ -13,6 +13,10 @@ export const ReviewTitle = styled.h1`
   font-size: 48px;
   font-weight: 600;
   margin-left: 40px;
+
+  @media (max-width: 768px) {
+    text-align: center;
+  }
 `;
 
 export const CommonReviewComment = styled.div`
@@ -20,6 +24,10 @@ export const CommonReviewComment = styled.div`
   height: 200px;
   margin-top: 65px;
   background-color: var(--pink);
+
+  // @media (max-width: 768px) {
+  //   width: 600px;
+  // }
 `;
 
 export const CommonReviewSubTitle = styled.div`
@@ -34,6 +42,12 @@ export const CommonReviewSubTitle = styled.div`
 export const ReviewComment1 = styled(CommonReviewComment)`
   border-top-right-radius: 100px;
   border-bottom-right-radius: 100px;
+
+  @media (max-width: 768px) {
+    border-radius: 20px;
+    margin-right: auto;
+    margin-left: auto;
+  }
 `;
 
 export const ReviewCommentTitle1 = styled.h3`
@@ -47,7 +61,7 @@ export const ReviewCommentTitle1 = styled.h3`
     content: "";
     position: absolute;
     display: block;
-    top: 20%;
+    top: 50%;
     left: -15%;
     width: 65px;
     height: 65px;
@@ -70,6 +84,12 @@ export const ReviewComment2 = styled(CommonReviewComment)`
   margin-left: auto;
   border-top-left-radius: 100px;
   border-bottom-left-radius: 100px;
+
+  @media (max-width: 768px) {
+    border-radius: 20px;
+    margin-right: auto;
+    margin-left: auto;
+  }
 `;
 
 export const ReviewCommentTitle2 = styled.h3`
@@ -84,7 +104,7 @@ export const ReviewCommentTitle2 = styled.h3`
     position: absolute;
     display: block;
     z-index: 1;
-    top: 20%;
+    top: 50%;
     left: -15%;
     width: 65px;
     height: 65px;
@@ -106,6 +126,12 @@ export const ReviewCommentSubTitle2 = styled(CommonReviewSubTitle)``;
 export const ReviewComment3 = styled(CommonReviewComment)`
   border-top-right-radius: 100px;
   border-bottom-right-radius: 100px;
+
+  @media (max-width: 768px) {
+    border-radius: 20px;
+    margin-right: auto;
+    margin-left: auto;
+  }
 `;
 
 export const ReviewCommentTitle3 = styled.h3`
@@ -120,7 +146,7 @@ export const ReviewCommentTitle3 = styled.h3`
     position: absolute;
     display: block;
     z-index: 1;
-    top: 20%;
+    top: 50%;
     left: -15%;
     width: 65px;
     height: 65px;
